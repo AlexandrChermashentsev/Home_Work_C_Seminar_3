@@ -25,6 +25,6 @@ else
         secondDigits[i] = number % 10;
         number = number / 10;
     }
-    if (firstHalf == secondDigits[0] * 10 + secondDigits[1]) Console.WriteLine($"The number {number} is a polyndrom");
-    else Console.WriteLine($"The number {number} is not a polyndrom");
+    if (firstHalf == secondDigits[0] * 10 + secondDigits[1]) Console.WriteLine("it's a palindrome");
+    else Console.WriteLine("It's not a palindrome");
 }
